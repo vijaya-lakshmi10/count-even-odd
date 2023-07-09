@@ -1,0 +1,45 @@
+/* Write your CSS here */
+
+.counter-container{
+    background-color: #ffffff;
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.counter-card-container{
+    border-radius: 10px;
+    border:0px solid #ffffff;
+    background-color: linear-gradient(to bottom,#ff6e7f,#bfe9ff);
+    height:400px;
+    width:400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.count-heading{
+    font-family: "Roboto";
+    font-size:36px;
+    color:#0f172a;
+}
+.count-sub-heading{
+    font-family: "Roboto";
+    font-size:30px;
+    color:#334155;
+}
+.increment-button{
+    padding:10px;
+    border-radius:10px;
+    background-color: #ffffff;
+    color:#0f172a;
+    font-family: "Roboto";
+    font-size: 14px;
+}
+.desc{
+    color:#1e293b;
+    font-family: "Roboto";
+    font-size: 18px;
+
+}
